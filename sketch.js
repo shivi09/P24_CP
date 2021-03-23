@@ -19,7 +19,7 @@ function setup() {
     density: 1.2,
     friction: 1,
   });
-  ground = new Ground(700, 340, 1400, 20, "yellow");
+  ground = new Ground(700, 340, 1400, 20);
   World.add(world, ball);
   Engine.run(engine);
 }
